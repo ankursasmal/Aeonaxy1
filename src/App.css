@@ -1,0 +1,27 @@
+ .botton_bar{
+    display: none;
+ }
+ .botton_bar :hover{
+    display: block;
+    visibility: visible;
+ } 
+ @media (max-width:600px) {
+   .hiddendiv{
+display: none;
+visibility: hidden;
+ }
+ .navbar{
+
+   display: none;
+   visibility: hidden;
+ }
+}
+@media (min-width:600px) {
+
+.navbar{
+display: block;
+visibility: visible;}}
+@media (min-width:2000px) {
+
+   .navbar{
+   height: 6vh !important;}}
