@@ -6,8 +6,8 @@ import { IoMdClose } from "react-icons/io";
     let display=useRef("")
   return (
     <div> 
-    <div ref={display} className='navbar  md:h-[3.6vh] h-[2.7vh] lg:h-[4.3vh] 2xl:h-[4.8vh]  bg-blue-500 px-3 md:px-2'>
-    <div   className='flex items-center lg:py-[.95vh] md:py-[.5vh] py-[.6vh] justify-between   '>
+    <div ref={display} className='navbar  md:h-[4.5vh] h-[3.7vh] lg:h-[5.7vh] 2xl:h-[6.3vh]  bg-blue-500 px-3 md:px-2 '>
+    <div   className='flex items-center justify-between   pt-1.5 pb-1'>
       <a></a>
            <a className='text-white text-[1vw]'>Enable browser notifications to avoid missing out on important activity.</a>
        
