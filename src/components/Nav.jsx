@@ -1,4 +1,4 @@
-import React, {  useRef,} from 'react'
+import React, {  useRef} from 'react'
  
 import { CiBellOn } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
@@ -6,8 +6,8 @@ import { IoMdClose } from "react-icons/io";
     let display=useRef("")
   return (
     <div> 
-    <div ref={display} className='navbar  md:h-[4.5vh] h-[3.7vh] lg:h-[5.7vh] 2xl:h-[6.3vh]  bg-blue-500 px-3 md:px-2 '>
-    <div   className='flex items-center justify-between   pt-1.5 pb-1'>
+    <div ref={display} className=' navbar  md:h-[4vh] h-[3vh] lg:h-[5vh] 2xl:h-[6vh]  bg-blue-500 px-3 md:px-2 '>
+    <div   className='flex items-center justify-between pt-2  md:pt-2 lg:pt-4  '>
       <a></a>
            <a className='text-white text-[1vw]'>Enable browser notifications to avoid missing out on important activity.</a>
        
