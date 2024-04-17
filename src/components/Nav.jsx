@@ -6,8 +6,10 @@ import { IoMdClose } from "react-icons/io";
     let display=useRef("")
   return (
     <div> 
-    <div ref={display} className=' navbar  md:h-[4vh] h-[3vh] lg:h-[5vh] 2xl:h-[6vh]  bg-blue-500 px-3 md:px-2 '>
-    <div   className='flex items-center justify-between pt-2  md:pt-2 lg:pt-4  '>
+    <div ref={display} className=' navbar'>
+    
+    <div className='flex justify-center   bg-blue-500 m-auto p-2'>
+    <div   className='flex items-center justify-between w-[99vw]'>
       <a></a>
            <a className='text-white text-[1vw]'>Enable browser notifications to avoid missing out on important activity.</a>
        
@@ -16,11 +18,11 @@ import { IoMdClose } from "react-icons/io";
           <CiBellOn className='text-white text-[1.5vw]  '/>
  <a className='text-white  md:text-[1vw] text-[.85vw] px-[1vw]'>Enable notifications</a></button>
  <IoMdClose className='mx-[.8vw] text-white text-[1.5vw]' onClick={(e)=>{e.preventDefault();   display.current.style.display='none';  }} />
-
-
+ 
   </div>
       </div>
     </div>
+    </div>0
     </div>
   )
 }
