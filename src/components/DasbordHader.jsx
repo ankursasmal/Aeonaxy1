@@ -11,7 +11,7 @@ import '../App.css'
  function DasbordHader() {
    let {rout}=useParams();
    return (
-    <div className='w-100% flex  justify-between items-center px-1 md:px-2 my-2'>
+    <div className='w-100% flex  justify-between items-center px-1 md:px-2 my-4'>
       <div className='flex items-center sm:overflow-x-auto'>
          < RiBookReadLine/>
          <IoIosArrowBack className='mx-1'/>

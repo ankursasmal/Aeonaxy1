@@ -22,7 +22,7 @@ import { IoMdClose } from "react-icons/io";
   </div>
       </div>
     </div>
-    </div>0
+    </div>
     </div>
   )
 }
